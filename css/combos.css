@@ -1,0 +1,24 @@
+main{
+  top:30px;
+}
+
+#combo img {
+  float: left;
+  height: 30%;
+  width:30%;
+}
+
+@media (max-width:768px) {
+  #combo{
+    display: flex;
+    flex-direction: column;
+
+  }
+  #combo img{
+
+    border-radius: 3px;
+    height: 80%;
+    width:80%;
+
+  }
+}
