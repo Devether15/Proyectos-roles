@@ -2,14 +2,25 @@
 @import url(menu.css);
 @import url(banner.css);
 @import url(combos.css);
-header {
-  background: #A1C45A;
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  header {
+  background: #4bbb8b       ;
   width: 100%;
   height: 50px;
   top: 0;
   left: 0;
   z-index: 100;
   position: fixed;
+}
+footer {
+  background-color: #4bbb8b ;
 }
 
 #presentacion img {
@@ -26,14 +37,59 @@ section{
   text-align: center;
 }
 
-* {
-  font-family: 'Poppins', sans-serif;
-  margin:0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 h1{
   float: left;
   font-size: 30px;
+}
+
+.separador{
+  margin-top: ;
+  height: 150px;
+  background-color: #ffd700;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.icons {
+  height: 60px;
+  width: 60px;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.productos {
+  height: 600px;
+  background-color: #f2f2f0;
+  margin-top:30px;
+}
+
+.contProd{
+  height: 400px;
+  margin: 100px;
+  background-color: #ffd700;
+}
+
+.leftItem {
+  float:left;
+  width: 43%;
+  height: 360px;
+  background-color: #4bbb8b;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.rightItem {
+  float: right;
+  width: 52%;
+  height: 360px;
+    background-color: red;
+  margin-top: 20px;
+  margin-right: 20px;
 }
